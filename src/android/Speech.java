@@ -243,8 +243,7 @@ public class Speech extends CordovaPlugin implements RecognizerListener, Synthes
     	SpeechRecognizer rec = getRecognizer();
     	
         rec.setParameter(SpeechConstant.DOMAIN, "iat");
-        rec.setParameter(SpeechConstant.LANGUAGE, "zh_cn");
-        rec.setParameter(SpeechConstant.ACCENT, "mandarin ");
+        rec.setParameter(SpeechConstant.LANGUAGE, "en-US");
         
         //rec.setParameter(SpeechConstant.SAMPLE_RATE, "8000");
         //rec.setParameter(SpeechConstant.ASR_AUDIO_PATH,"./sdcard/asr.pcm");
